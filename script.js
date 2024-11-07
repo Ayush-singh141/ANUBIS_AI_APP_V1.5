@@ -26,14 +26,14 @@ function changeInput(value){
 }
     import { GoogleGenerativeAI } from "@google/generative-ai";
    // 
-    const genAI = new GoogleGenerativeAI("AIzaSyBBWF1LnQ_539uA8nDXSFD7rGN6a921kxU");
+    const genAI = new GoogleGenerativeAI(API_KEY);
     async function run(){
         // Make sure to include these imports:
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
         
         let prompt;
         if(filedata.file.data!=null){
-              const API_KEY ="AIzaSyBBWF1LnQ_539uA8nDXSFD7rGN6a921kxU"; 
+              const API_KEY ="API_KEY"; 
               const API_URL=`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
               const requestOption={
                 method: "POST",
