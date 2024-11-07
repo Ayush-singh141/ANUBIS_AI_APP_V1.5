@@ -32,8 +32,8 @@ ANUBIS is an interactive, AI-driven chatbot interface built to provide a seamles
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/anubis.git
-   cd anubis
+   gh repo clone Ayush-singh141/ANUBIS_AI_APP_V1.5
+   cd ANUBIS_AI_APP_V1.5
    ```
 
 2. Open the `index.html` file in your web browser.
